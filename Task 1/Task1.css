@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d0db7def;
+    color: #474747;
+    text-align: center;
+}
+
+header {
+    background-color: #4e8999;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about img {
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+#skills  ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills ul li {
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#achievements  ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#achievements ul li a{
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+
+li:hover{
+    size: 10px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
