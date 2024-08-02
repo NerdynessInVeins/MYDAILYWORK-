@@ -1,0 +1,61 @@
+body {
+    background-image: url("—Pngtree—alarm\ clock\ book\ soccer\ school_1168179.png");
+    background-size: 1600px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    width: 300px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.display {
+    background-color: #222;
+    color: #fff;
+    font-size: 2em;
+    padding: 20px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1px;
+}
+
+.button {
+    padding: 20px;
+    background-color: #e0e0e0;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.button.operator {
+    background-color: #f0a500;
+    color: #fff;
+}
+
+.button#equals {
+    grid-column: span 4;
+    background-color: #0a74da;
+    color: #fff;
+}
+
+.button#clear {
+    background-color: #ff4d4d;
+    color: #fff;
+}
