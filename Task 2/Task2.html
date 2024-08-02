@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vastra - Premium Clothing Brand</title>
+    <link rel="stylesheet" href="Task2.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Vastra</h1>
+        <p>Premium Clothing for Every Occasion</p>
+    </header>
+
+    <nav>
+        <a href="#" class="logo">Vastra</a>
+        <div>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#collection">Collection</a>
+            <a href="#contact">Contact</a>
+            <a href="#login">Login</a>
+            <a href="#signup">Sign Up</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h2>Discover Our Latest Collection</h2>
+        <p>Experience the perfect blend of style and comfort with our new arrivals.</p>
+        <a href="#collection" class="cta">Shop Now</a>
+        <a href="#about" class="cta">Learn More</a>
+    </section>
+
+    <div class="main">
+        <section style="height: 500px;" id="about">
+            <h2>About Us</h2>
+            <img src="about.jpeg" alt="About Us">
+            <p>
+                Welcome to Vastra, your ultimate destination for all things fashion. As a proud Indian clothing brand,
+                we
+                offer an extensive range of high-quality fashion items, from men's and women's apparel to shoes and
+                accessories. Our collection embodies the rich traditions of India, showcasing the finest handmade
+                products that merge traditional craftsmanship with contemporary designs. <br><br>
+
+                At Vastra, we are committed to providing you with the best quality products that celebrate the roots of
+                Indian culture. Each piece in our collection is crafted with care and precision, ensuring that you
+                receive nothing but the finest. Whether you're looking for stylish everyday wear or exquisite
+                traditional outfits, Vastra has something for everyone. <br><br>
+
+                Explore our collection and experience the blend of tradition and modernity that defines Vastra. Join us
+                in celebrating the heritage of Indian craftsmanship through fashion.</p>
+        </section>
+        <section id="collection">
+            <h2>Our Collection</h2>
+            <img src="Designer.png" alt="Our Collection" id="coll_img">
+            <p>
+                Discover the diverse and exquisite collection at Vastra, where tradition meets modern fashion. Our
+                carefully curated range includes: <br><br>
+
+                <div>
+                    <h3> Men's Apparel</h3> 
+                    <p style="margin-bottom: 0.5em;">
+                        Explore our selection of men's clothing, featuring everything from casual wear to formal attire. Each
+                        piece is designed to offer comfort, style, and a touch of Indian heritage.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Women's Apparel</h3>
+                    <p style="margin-bottom: 0.5em;">
+                        Find the perfect outfit for every occasion in our women's collection. From elegant sarees and kurtas to
+                        trendy western wear, our designs celebrate the beauty and grace of Indian craftsmanship.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Footwear</h3>
+                    <p style="margin-bottom: 0.5em;">
+                        Step into style with our range of footwear. Whether you're looking for traditional juttis or
+                        contemporary shoes, our collection ensures the perfect blend of comfort and fashion.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Accessories</h3>
+                    <p style="margin-bottom: 0.5em;">
+                        Complete your look with our unique accessories. From handcrafted jewelry to stylish bags, our
+                        accessories are designed to add a touch of elegance to any  outfit. 
+                    </p>
+                </div><br><br><br>
+
+                <p>
+                    At Vastra, we pride ourselves on offering products that are not only stylish but also reflect the rich
+                    cultural heritage of India. Browse our collection and find pieces that resonate with your style and
+                    personality.
+                </p>
+
+
+            </p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have any questions or need assistance? Reach out to our customer support team, and we will be happy to
+                help.</p>
+            <p>Email: support@vastra.com</p>
+            <p>Phone: +91 7983291128</p>
+        </section>
+    </div>
+
+    <div class="login-signup">
+        <h2 style="text-align: center;">Login Form</h2>
+        <form id="login">
+            <div class="frm">
+                <label for="Username">Username : </label>
+                <input type="text" name="Username" id="Username" placeholder="Username" required><br><br>
+            </div>
+
+            <div class="frm">
+                <label for="pw">Password : </label>
+                <input type="password" name="password" id="pw" required><br><br>
+            </div>
+        </form>
+
+        <button onclick="submit()" style="margin: 5px 170px; margin-bottom: 20px;">Login</button>
+
+    </div>
+
+    <div class="login-signup">
+        <h2 style="text-align: center;">Signup Form</h2>
+        <form id="signup">
+            <div class="frm">
+                <label for="Fullname">Fullname : </label>
+                <input type="text" name="Fullname" id="Fullname" placeholder="Fullname" required><br><br>
+            </div>
+
+            <div class="frm">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="frm">
+                <label for="new_pw">Password : </label>
+                <input type="password" name="new_password" id="new_pw" required><br><br>
+            </div>
+        </form>
+
+        <button onclick="submit()" style="margin: 5px 170px; margin-bottom: 20px;">Signup</button>
+
+    </div>
+
+    <footer>
+        <div class="social-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-pinterest"></i></a>
+        </div>
+        <p>&copy; 2024 Vastra. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
